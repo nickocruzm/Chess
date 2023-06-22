@@ -1,9 +1,11 @@
 #include "GameManager.h"
+#include <SFML/Graphics.hpp>
 
 using sf::Texture;
 
 int main(){
     Texture chess_piece_texture;
+
     if (!chess_piece_texture.loadFromFile("assets/chess_pieces.png")) {
         std::cerr << "Failed to load image" << endl;
     }

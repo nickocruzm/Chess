@@ -16,14 +16,19 @@ using std::cout;
 using std::endl;
 using std::vector;
 using sf::Texture;
+using sf::RenderWindow;
+
 
 int main() {
     cout << "Program Start.." << endl;
 
     // the width and height of the window
-    const int width = 1200, height = 1200;
+    const int width = 1200;
+    const int height = 1200;
 
-    sf::RenderWindow window(sf::VideoMode(width, height), "The Lime: Chess");
+    RenderWindow window;
+    sf::VideoMode desktop = sf::VideoMode::getDesktopMode();
+    window.create(sf::VideoMode({1024, 768}, desktop.bitsPerPixel), "SFML window");
     window.setFramerateLimit(60);
 
     // load the background texture for chessboard
