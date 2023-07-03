@@ -12,41 +12,38 @@
 #include "Input.h"
 #include "GameManager.h"
 
-using std::cout;
-using std::endl;
+
 using std::vector;
-using sf::Texture;
-using sf::RenderWindow;
 
 
 int main() {
-    cout << "Program Start.." << endl;
+    std::cout << "Program Start.." << std::endl;
 
     // the width and height of the window
     const int width = 1200;
     const int height = 1200;
 
-    RenderWindow window;
+    sf::RenderWindow window;
     sf::VideoMode desktop = sf::VideoMode::getDesktopMode();
     window.create(sf::VideoMode({1024, 768}, desktop.bitsPerPixel), "SFML window");
     window.setFramerateLimit(60);
 
     // load the background texture for chessboard
-    Texture light_green_bg;
+    sf::Texture light_green_bg;
     if (!light_green_bg.loadFromFile("assets/light_green_bg.png")) {
-        std::cerr << "Failed to load image \"light_green_bg.png\"" << endl;
+        std::cerr << "Failed to load image \"light_green_bg.png\"" << std::endl;
     }
-    Texture dark_green_bg;
+    sf::Texture dark_green_bg;
     if (!dark_green_bg.loadFromFile("assets/dark_green_bg.png")) {
-        std::cerr << "Failed to load image \"dark_green_bg.png\"" << endl;
+        std::cerr << "Failed to load image \"dark_green_bg.png\"" << std::endl;
     }
     Chessboard board(light_green_bg, dark_green_bg);
 
 
     // load the texture for the chess pieces 
-    Texture chess_piece_texture;
+    sf::Texture chess_piece_texture;
     if (!chess_piece_texture.loadFromFile("assets/chess_pieces.png")) {
-        std::cerr << "Failed to load image" << endl;
+        std::cerr << "Failed to load image" << std::endl;
     }
     chess_piece_texture.setSmooth(true);
 
