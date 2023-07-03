@@ -1,4 +1,4 @@
-# “The Lime” Chess Game
+# Chess
 
 **Authors**:<br>
 Yen Hao Wang (Rick Wang): https://github.com/apo11o-M<br>
@@ -6,7 +6,17 @@ Nicholas Martinez (Nicko): https://github.com/NickoCruz101<br>
 Derrason Towery: https://github.com/Dtowe002<br>
 Maya Treves: https://github.com/mtgym2<br>
 
-## Project Description
+## Project Overview
+- Developed a basic chess application. 
+- Providing GUI and CLI
+- User input is given using 1 of 2 methods. (examples given below)
+	- Through command line, using standard chess notation 
+	- Point and click method through the Graphical User interface
+- User(s) has the option to play against one another or computer.
+- Documentation below provides a further insights to project design andinstallation 
+
+
+## Project Components
 Chess game, chessboard bi, and the players will be entering the moves in the form of "b1 -> c3" in the command line to control the pieces.
 
 The language of this project is C++, and the library to render the chess pieces' textures is the [SFML library](https://www.sfml-dev.org/).
