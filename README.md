@@ -7,15 +7,14 @@ Derrason Towery: https://github.com/Dtowe002<br>
 Maya Treves: https://github.com/mtgym2<br>
 
 ## Project Description
-This is a Chess game with two players. There is a GUI for the chessboard, and the players will be entering the moves in the form of "b1 -> c3" in the command line to control the pieces.
+Chess game, chessboard bi, and the players will be entering the moves in the form of "b1 -> c3" in the command line to control the pieces.
 
 The language of this project is C++, and the library to render the chess pieces' textures is the [SFML library](https://www.sfml-dev.org/).
-We were planning to use Python and the Tkinter library at first, but not all of our group members are familiar with Python.
+
 
 ### Basic Concepts:
  - Front end: GUI’s, User Experience, ...
  - Back end: Data structure, Memory allocation, ...
- - Python, Tkinter library
  - C++, SFML library
  - Input Options
     1. chess board coordinates:   WHITE: [ (a-h), (1-8)] , BLACK [ (h-a), (8-1) ]<br>Example of terminal input: White(player name): b8
