@@ -7,24 +7,26 @@ Derrason Towery: https://github.com/Dtowe002<br>
 Maya Treves: https://github.com/mtgym2<br>
 
 ## Project Overview
+- Project is written in C++
 - Developed a basic chess application. 
 - Providing GUI and CLI
 - User input is given using 1 of 2 methods. (examples given below)
 	- Through command line, using standard chess notation 
 	- Point and click method through the Graphical User interface
 - User(s) has the option to play against one another or computer.
-- Documentation below provides a further insights to project design andinstallation 
+- Documentation below provides a further insights to project design.
 
-
-## Project Components
-Chess game, chessboard bi, and the players will be entering the moves in the form of "b1 -> c3" in the command line to control the pieces.
-
-The language of this project is C++, and the library to render the chess pieces' textures is the [SFML library](https://www.sfml-dev.org/).
+## Installation/Usage
+1. Clone the repository, be sure to clone the SFML submodule recursively.
+2. Run `cmake .` in the root of the repo to generate the makefile.
+3. Run `make` to compile the project, this may take a while.
+4. Run the `./main` executable
+5. The command line will prompt the user to input the coordinates to control the chess pieces, first the coordinate of the chess piece that you want to move, then the final destination of that chess piece.
 
 
 ### Basic Concepts:
- - Front end: GUI’s, User Experience, ...
- - Back end: Data structure, Memory allocation, ...
+ - Front end: GUI’s, User Experience
+ - Back end: Data structure, Memory allocation
  - C++, SFML library
  - Input Options
     1. chess board coordinates:   WHITE: [ (a-h), (1-8)] , BLACK [ (h-a), (8-1) ]<br>Example of terminal input: White(player name): b8
@@ -32,8 +34,7 @@ The language of this project is C++, and the library to render the chess pieces'
  - Output Options
     1. Have a window that shows the actual gameplay
 
-### Phase II
-#### Classes:
+### Classes:
 - Game (concrete):
   - Epic: User should be able to choose their moves and see game updates
   - User stories: 
@@ -72,12 +73,7 @@ The language of this project is C++, and the library to render the chess pieces'
 ![chess starting position](https://user-images.githubusercontent.com/89518835/145055572-d1670d39-c054-43f4-be5a-03f4157fe43e.png)
 ![chess prompt](https://user-images.githubusercontent.com/89518835/145055596-8bbf2944-35ba-4699-96e2-4e9e4c81167a.png)
 
-## Installation/Usage
-1. Clone the repository, be sure to clone the SFML submodule recursively.
-2. Run `cmake .` in the root of the repo to generate the makefile.
-3. Run `make` to compile the project, this may take a while.
-4. Run the `./main` executable
-5. The command line will prompt the user to input the coordinates to control the chess pieces, first the coordinate of the chess piece that you want to move, then the final destination of that chess piece.
+
 
 ## Testing
 - Our project was tested through executing the game and validated by comparing the expected GUI output with the actual GUI output.
