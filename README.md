@@ -23,6 +23,14 @@ Maya Treves: https://github.com/mtgym2<br>
 4. Run the `./main` executable
 5. The command line will prompt the user to input the coordinates to control the chess pieces, first the coordinate of the chess piece that you want to move, then the final destination of that chess piece.
 
+## Team 
+Team Members: 
+	- Yen Hao Wang (Rick Wang), https://github.com/apo11o-M
+ 	- Derrason Towery, https://github.com/Dtowe002
+  	- Maya Treves, https://github.com/mtgym2
+   	- Nicholas Martinez (Nicko), https://github.com/nickocruzm
+  
+Our team met both in person and online. Collaboration was necessary for all project components. Confident stating, each member made valued contributions to this project and provided support to one another when confronted with challenges.
 
 ### Basic Concepts:
  - Front end: GUI’s, User Experience
