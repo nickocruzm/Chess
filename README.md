@@ -6,16 +6,6 @@ Nicholas Martinez (Nicko): https://github.com/NickoCruz101<br>
 Derrason Towery: https://github.com/Dtowe002<br>
 Maya Treves: https://github.com/mtgym2<br>
 
-## Project Overview
-- Project is written in C++
-- Developed a basic chess application. 
-- Providing GUI and CLI
-- User input is given using 1 of 2 methods. (examples given below)
-	- Through command line, using standard chess notation 
-	- Point and click method through the Graphical User interface
-- User(s) has the option to play against one another or computer.
-- Documentation below provides a further insights to project design.
-
 ## Installation/Usage
 1. Clone the repository, be sure to clone the SFML submodule recursively.
 2. Run `cmake .` in the root of the repo to generate the makefile.
@@ -26,7 +16,7 @@ Maya Treves: https://github.com/mtgym2<br>
 ## Team 
 Team Members:
 
- 	- Yen Hao Wang (Rick Wang), https://github.com/apo11o-M
+ 	- Yen Hao Wang (Rick Wang), (https://github.com/apo11o-M)
   
  	- Derrason Towery, https://github.com/Dtowe002
   
@@ -36,13 +26,38 @@ Team Members:
   
 Our team met both in person and online. Collaboration was necessary for all project components. Confident stating, each member made valued contributions to this project and provided support to one another when confronted with challenges.
 
-### Basic Concepts:
+## External Libraries
+1. Simple and Fast Multimedia Library (SFML), [https://github.com/SFML/SFML.git]
+2. Google Testing, [https://github.com/google/googletest.git]
+
+## Project Overview
+- Written in C++
+- Developed chess application. 
+- Developed graphical and command line interfaces.
+- User has the option to play against another user or computer.
+- Documentation below provides a further insights to project design.
+
+## User Input
+
+Coordinate system used to determine piece locations, is aligned with the coordinate system used in chess. Positions are made up of two componenets row index, and column label.
+
+$$ \text{Row index }, (R) = \[1,8\] $$
+
+$$ \text{Column index }, (C) = \[A - H\] $$
+
+$$ \text{Position }, (P) = (R,C) $$
+
+### Command Line Interface
+
+### Graphical User Interface
+
+
  - Front end: GUI’s, User Experience
  - Back end: Data structure, Memory allocation
- - C++, SFML library
  - Input Options
-    1. chess board coordinates:   WHITE: [ (a-h), (1-8)] , BLACK [ (h-a), (8-1) ]<br>Example of terminal input: White(player name): b8
-    2. mouse click drag pieces to desired space.
+    1. chess board coordinates:   WHITE:  (a-h), (1-8), BLACK (h-a), (8-1)
+       Example of terminal input: White(player name): b8
+    3. mouse click drag pieces to desired space.
  - Output Options
     1. Have a window that shows the actual gameplay
 
@@ -66,12 +81,14 @@ Our team met both in person and online. Collaboration was necessary for all proj
   - User stories:
     - As a user, I want to be able to choose which color I play as
     - As a user, I want to be able to control my chess pieces with my keyboard
+   
+
 - Objects (composite pattern):
   - Pawn (1)
   - Knight (4)
   - Bishop (4)
-	- Queen (8)
-	- King (10)
+  - Queen (8)
+  - King (10)
 
 *Results will be updated throughout the game (based on piece values)
 
