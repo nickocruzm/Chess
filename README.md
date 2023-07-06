@@ -2,7 +2,7 @@
 
 **Authors**:<br>
 Yen Hao Wang (Rick Wang): https://github.com/apo11o-M<br>
-Nicholas Martinez (Nicko): https://github.com/NickoCruz101<br>
+Nicholas Martinez (Nicko): https://github.com/nickocruzm<br>
 Derrason Towery: https://github.com/Dtowe002<br>
 Maya Treves: https://github.com/mtgym2<br>
 
