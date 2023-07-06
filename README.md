@@ -41,9 +41,9 @@ Our team met both in person and online. Collaboration was necessary for all proj
 
 Coordinate system used to determine piece locations, is aligned with the coordinate system used in chess. Positions are made up of two componenets row index, and column label.
 
-$$ \text{Row index }, (R) = \[1,8\] $$
+$$ \text{Row index }, (R) = \[1, 8\] $$
 
-$$ \text{Column index }, (C) = \[A - H\] $$
+$$ \text{Column index }, (C) = \[A, H\] $$
 
 $$ \text{Position }, (P) = (R,C) $$
 
