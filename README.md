@@ -7,11 +7,10 @@ Derrason Towery: https://github.com/Dtowe002<br>
 Maya Treves: https://github.com/mtgym2<br>
 
 ## Installation/Usage
-1. Clone the repository, be sure to clone the SFML submodule recursively.
-2. Run `cmake .` in the root of the repo to generate the makefile.
-3. Run `make` to compile the project, this may take a while.
-4. Run the `./main` executable
-5. The command line will prompt the user to input the coordinates to control the chess pieces, first the coordinate of the chess piece that you want to move, then the final destination of that chess piece.
+1. Run `cmake .` in the root of the repo to generate the makefile.
+2. Run `make` to compile the project, this may take a while.
+3. Run the `./main` executable
+4. The command line will prompt the user to input the coordinates to control the chess pieces, first the coordinate of the chess piece that you want to move, then the final destination of that chess piece.
 
 ## Team 
 Team Members:
