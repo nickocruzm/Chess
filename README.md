@@ -50,16 +50,6 @@ $$ \text{Position }, (P) = (R,C) $$
 
 ### Graphical User Interface
 
-
- - Front end: GUI’s, User Experience
- - Back end: Data structure, Memory allocation
- - Input Options
-    1. chess board coordinates:   WHITE:  (a-h), (1-8), BLACK (h-a), (8-1)
-       Example of terminal input: White(player name): b8
-    3. mouse click drag pieces to desired space.
- - Output Options
-    1. Have a window that shows the actual gameplay
-
 ### Classes:
 - Game (concrete):
   - Epic: User should be able to choose their moves and see game updates
@@ -89,7 +79,6 @@ $$ \text{Position }, (P) = (R,C) $$
   - Queen (8)
   - King (10)
 
-*Results will be updated throughout the game (based on piece values)
 
 *(strategy pattern): implementing piece functionality
  
