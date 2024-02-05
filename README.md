@@ -87,9 +87,3 @@ $$ \text{Position }, (P) = (R,C) $$
 ## Class Diagram
 ![image](https://user-images.githubusercontent.com/89518835/145036362-84267055-8d74-4c2c-8be1-ba7e1684d342.png)
 
-
-
-## Testing
-- Our project was tested through executing the game and validated by comparing the expected GUI output with the actual GUI output.
-- Since we are using a GUI, we have a test in the main function where we declared a number of chess pieces with a specific color and coordinates, and then we visually check that every pieces are in the correct position and color.
-- For the user input, we inputted different coordinates and check whether the program outputs the expected result. If the coordinates or the move is not valid (such as not on the board) it will output "invalid output". If the coordinates and the move are both valid, then the chess pieces will update its position on the board.
