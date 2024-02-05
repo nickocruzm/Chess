@@ -87,9 +87,7 @@ $$ \text{Position }, (P) = (R,C) $$
 ## Class Diagram
 ![image](https://user-images.githubusercontent.com/89518835/145036362-84267055-8d74-4c2c-8be1-ba7e1684d342.png)
 
-## Screenshots
- > Screenshots of the input/output after running your application
-![chess starting position](https://user-images.githubusercontent.com/89518835/145055572-d1670d39-c054-43f4-be5a-03f4157fe43e.png)
+
 ![chess prompt](https://user-images.githubusercontent.com/89518835/145055596-8bbf2944-35ba-4699-96e2-4e9e4c81167a.png)
 
 
