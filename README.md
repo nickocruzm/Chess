@@ -30,8 +30,8 @@ Our team met both in person and online. Collaboration was necessary for all proj
 2. Google Testing, [https://github.com/google/googletest.git]
 
 ## Project Overview
-- Written in C++
-- Developed chess application. 
+- Developed Chess application
+- Written in C++ 
 - Developed graphical and command line interfaces.
 - User has the option to play against another user or computer.
 - Documentation below provides a further insights to project design.
@@ -49,6 +49,8 @@ $$ \text{Position }, (P) = (R,C) $$
 ### Command Line Interface
 
 ### Graphical User Interface
+
+![GUI](GUI_Chess.png)
 
 ### Classes:
 - Game (concrete):
