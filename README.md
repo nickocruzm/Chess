@@ -88,9 +88,6 @@ $$ \text{Position }, (P) = (R,C) $$
 ![image](https://user-images.githubusercontent.com/89518835/145036362-84267055-8d74-4c2c-8be1-ba7e1684d342.png)
 
 
-![chess prompt](https://user-images.githubusercontent.com/89518835/145055596-8bbf2944-35ba-4699-96e2-4e9e4c81167a.png)
-
-
 
 ## Testing
 - Our project was tested through executing the game and validated by comparing the expected GUI output with the actual GUI output.
