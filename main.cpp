@@ -25,7 +25,7 @@ int main() {
 
     sf::RenderWindow window;
     sf::VideoMode desktop = sf::VideoMode::getDesktopMode();
-    window.create(sf::VideoMode({1024, 768}, desktop.bitsPerPixel), "SFML window");
+    window.create(sf::VideoMode(1024, 768, desktop.bitsPerPixel), "SFML window");
     window.setFramerateLimit(60);
 
     // load the background texture for chessboard
