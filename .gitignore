@@ -22,7 +22,7 @@ cmake_install.cmake
 CMakeCache.txt
 
 main
-
+bin/
 *.ninja_log
 *.ninja_deps
 *.ipch
