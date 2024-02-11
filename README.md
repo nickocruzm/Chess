@@ -50,7 +50,7 @@ $$ \text{Position }, (P) = (R,C) $$
 
 ### Graphical User Interface
 
-![GUI](GUI_Chess.png)
+![GUI](assets/GUI_Chess.png)
 
 ### Classes:
 - Game (concrete):
